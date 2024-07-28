@@ -3,10 +3,67 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>Fitness</title>
+ <script src="https://kit.fontawesome.com/1c8fd1686e.js" crossorigin="anonymous"></script>
  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
- 
+ <header class="intro">
+  <nav class="nav-bar">
+   <h2><i>Fitness</i></h2>
+   <div class="nav-option" id="navbarMenu">
+    <h5>Home</h5>
+    <ul class="options">
+     <li><a href="">Service</a></li>
+     <li><a href="">Contact</a></li>
+     <li><a href="">About</a></li>
+    </ul>
+   </div>
+   <div class="hamburger" id="hamburger">
+    &#9776;
+   </div>
+  </nav>
+  <script>
+     document.getElementById("hamburger").addEventListener("click", function() {
+      var menu = document.getElementById("navbarMenu");
+      if (menu.style.display === "block") {
+       menu.style.display = "none";
+      }
+      else {
+       menu.style.display = "block";
+      }
+     });
+  </script>
+  <section class="banner">
+   <div class="banner-text">
+    <h1>Get body in <span id="shape">shape</span> & stay healthy</h1>
+    <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>    
+    <div class="banner-btn">
+     <button class="btn-1">Join Club Now!</button>
+     <button class="btn-2">Download App</button>
+    </div>
+   </div>
+   <div class="banner-image">
+    <div class="tutorial">
+     <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+     <div class="videos">
+      <h2>350+</h2>
+      <p>Video tutorial</p>
+     </div>   
+    </div>
+    <img src="images/Images 2.png" alt="">
+    <div class="workout">
+     <h2>500+</h2>
+     <p>Free Workout Videos</p>
+    </div>
+   </div>
+  </section>
+ </header>
+ <main>
+
+ </main>
+ <footer>
+
+ </footer>
 </body>
 </html>
