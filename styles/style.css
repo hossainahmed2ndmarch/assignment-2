@@ -194,6 +194,70 @@ body {
  margin-top: -25px;
 }
 
+/* main part styles starts here */
+main {
+ max-width: 1440px;
+ margin: 0 auto;
+ background: rgb(0, 0, 0);
+}
+/* habits styles */
+.habits {
+ max-width: 1044px;
+ /* height: 452px; */
+ margin: 0 auto;
+}
+.habits-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.habits-text h2 {
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 48px;
+ font-weight: 900;
+ line-height: 120%;
+}
+.habits-text p {
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 400;
+ margin-top: -14px;
+}
+.habits-img {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ margin-top: 58px;
+}
+.imgs{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ margin-bottom: 100px;
+}
+.imgs img {
+ border-radius: 50%;
+}
+.imgs h5 {
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 18px;
+ font-weight: 600;
+}
+.imgs p {
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 400;
+ margin-top: -6px;
+}
+
 @media screen and (max-width: 576px) {
  .nav-option {
   display: none;
@@ -205,13 +269,15 @@ body {
  .hamburger {
   display: block;
  }
- .banner {
+ .banner, 
+ .habits-img {
   flex-direction: column;
  }
  .banner-text {
   margin: 0 auto;
  }
- .banner-image {
+ .banner-image,
+ .habits {
   margin: 0 auto;
  }
 }
