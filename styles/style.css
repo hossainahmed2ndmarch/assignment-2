@@ -475,7 +475,6 @@ select option {
 .team-section {
  max-width: 1060px;
  margin: 0 auto;
- padding: 20px;
  text-align: center;
 }
 
@@ -484,24 +483,23 @@ select option {
  font-weight: 900;
  color: #fff;
  margin-bottom: 20px;
- font-family: 'Inter', sans-serif;
+ font-family: Inter;
 }
 
 .team-section p {
  font-size: 14px;
  color: rgba(255, 255, 255, 0.5);
  margin-bottom: 40px;
- font-family: 'Inter', sans-serif;
+ font-family: Inter;
 }
 
-/* Grid layout for the team members */
 .team-grid {
  max-width: 1060px;
  border-radius: 18px;
  background: rgba(255, 255, 255, 0.1);
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- gap: 20px;
+ gap: 10px;
 }
 
 .team-member {
@@ -509,7 +507,7 @@ select option {
  height: 272px;
  position: relative;
  padding: 20px;
- overflow: hidden;
+ /* overflow: hidden; */
  border-radius: 18px;
 }
 
@@ -534,7 +532,7 @@ select option {
  background: rgba(0, 0, 0, 0.5);
  border-radius: 0 0 18px 18px;
  color: #fff;
- font-family: 'Inter', sans-serif;
+ font-family: Inter;
 }
 
 .team-member-info h3 {
@@ -547,7 +545,7 @@ select option {
  text-align: left;
  font-size: 14px;
  margin: 5px 0 0;
- color: rgba(255, 255, 255, 0.8);
+ color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 576px) {
