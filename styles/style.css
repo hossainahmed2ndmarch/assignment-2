@@ -258,6 +258,76 @@ main {
  margin-top: -6px;
 }
 
+/* run section styles */
+.run {
+ max-width: 1044px;
+ height: 371px;
+ border-radius: 18px;
+ background: rgb(34, 34, 34);
+ margin: 0 auto;
+ margin-bottom: 100px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ padding: 20px;
+}
+
+.run-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.run-text h3 {
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 48px;
+ font-weight: 900;
+ line-height: 120%;
+ margin: 0;
+}
+
+.run-text p {
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 24px;
+ margin: 20px 0;
+}
+
+.run-text button {
+ width: 224px;
+ height: 54px;
+ border: none;
+ border-radius: 42px;
+ background: rgb(230, 83, 60);
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 18px;
+ font-weight: 600;
+ cursor: pointer;
+ transition: background 0.3s ease;
+}
+
+.run-text button:hover {
+ background: rgb(200, 60, 40);
+}
+
+.run-img {
+ max-width: 366px;
+ max-height: 312px;
+}
+
+.run-img img {
+ width: 100%;
+ height: 100%;
+ object-fit: none;
+ object-position: 66% 29%;
+ border-radius: 18px;
+}
+
 @media screen and (max-width: 576px) {
  .nav-option {
   display: none;
@@ -279,5 +349,30 @@ main {
  .banner-image,
  .habits {
   margin: 0 auto;
+ }
+ .run {
+  flex-direction: column;
+  margin: 0 auto;
+  height: auto;
+  padding: 20px;
+  text-align: left;
+ }
+
+.run-text {
+  margin-bottom: 20px;
+ }
+
+.run-text button {
+  width: 287px;
+  height: 54px;
+ }
+
+.run-img {
+  margin-left: -40px;
+  max-width: 300px;
+  max-height: auto;
+ }
+.run-img img {
+  object-fit: cover;
  }
 }
