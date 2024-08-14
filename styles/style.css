@@ -55,6 +55,10 @@ body {
  display: flex;
 }
 
+.options > li > a:hover {
+ color: rgb(200, 60, 40);
+}
+
 .options li {
  list-style: none;
  margin-right: 3rem;
@@ -204,6 +208,7 @@ body {
  font-family: Inter;
  font-size: 24px;
  font-weight: 900;
+ margin: 0;
 }
 
 .videos p {
@@ -233,7 +238,7 @@ body {
  font-family: Inter;
  font-size: 40px;
  font-weight: 900;
- margin-top: -5px;
+ margin: 0;
 }
 
 .workout p {
@@ -241,7 +246,6 @@ body {
  font-family: Inter;
  font-size: 13px;
  font-weight: 400;
- margin-top: -25px;
 }
 
 /* main part styles starts here */
@@ -923,7 +927,7 @@ hr {
   padding: 20px;
   align-items: flex-start;
  }
- 
+
  hr {
   width: 90%;
   margin-top: 50px;
