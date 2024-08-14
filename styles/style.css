@@ -167,6 +167,7 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
+ position: relative;
 }
 
 .tutorial {
@@ -180,8 +181,9 @@ body {
  justify-content: space-evenly;
  align-items: center;
  text-align: center;
- margin-bottom: -300px;
- margin-right: -100px;
+ position: absolute;
+ right: 256px;
+ top: 421px;
 }
 
 .play-btn {
@@ -223,8 +225,9 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- margin-top: -200px;
- margin-left: -120px;
+ position: absolute;
+ left: 230px;
+ bottom: 357px;
  border: 1px solid rgba(255, 255, 255, 0.1);
  border-radius: 12px;
  backdrop-filter: blur(20px);
@@ -815,8 +818,8 @@ hr {
 }
 
 .tutorial {
- margin-bottom: -40px;
- margin-right: -150px;
+ right: 185px;
+ top: 271px;
  width: 155.74px;
  height: 72.58px;
 }
@@ -835,8 +838,8 @@ hr {
 }
 
 .workout {
- margin-top: -350px;
- margin-left: -160px;
+ left: 194px;
+ bottom: 466px;
  width: 145.91px;
  height: 74.09px;
 }
