@@ -686,12 +686,17 @@ select option {
 
 .team-member-info h3 {
  text-align: left;
+}
+
+.team-member-info h3 > a {
+ text-decoration: none;
+ color: #fff;
  font-size: 18px;
  margin: 0;
  cursor: pointer;
 }
 
-.team-member-info h3:hover {
+.team-member-info h3 > a:hover {
  color: rgb(200, 60, 40);;
 }
 
