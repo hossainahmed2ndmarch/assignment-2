@@ -17,12 +17,14 @@ body {
  justify-content: space-around;
  align-items: center;
 }
+
 .nav-bar h2 {
  color: rgb(230, 83, 60);
  font-family: Inter;
  font-size: 36px;
  font-weight: 800;
 }
+
 .nav-option {
  height: 46px;
  display: flex;
@@ -30,8 +32,8 @@ body {
  justify-content: flex-start;
  border: 1px solid rgba(255, 255, 255, 0.1);
  border-radius: 39px;
-
 }
+
 .nav-option h5 {
  border-radius: 46px;
  padding: 12.5px 20px;
@@ -40,14 +42,24 @@ body {
  font-family: Inter;
  font-size: 18px;
  font-weight: 600;
+ cursor: pointer;
+ transition: background 0.3s ease;
 }
+
+.nav-option h5:hover {
+ background-color: rgb(200, 60, 40);
+ transform: scale(1.05);
+}
+
 .options {
  display: flex;
 }
+
 .options li {
  list-style: none;
  margin-right: 3rem;
 }
+
 .options a {
  text-decoration: none;
  color: rgb(255, 255, 255);
@@ -55,18 +67,22 @@ body {
  font-size: 18px;
  font-weight: 400;
 }
+
 .hamburger {
  display: none;
  color: white;
  font-size: 2em;
  cursor: pointer;
 }
+
 /* banner styles */
 .banner {
  display: flex;
  justify-content: space-around;
  text-align: center;
+ /* padding: 20px; */
 }
+
 .banner-text {
  width: 520px;
  height: 440px;
@@ -77,6 +93,7 @@ body {
  align-items: flex-start;
  text-align: left;
 }
+
 .banner-text h1 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -84,11 +101,13 @@ body {
  font-weight: 900;
  line-height: 80%;
 }
+
 #shape {
  font-family: "Miama", sans-serif;
  font-size: 78px;
  font-weight: 500
 }
+
 .banner-text p {
  color: rgba(255, 255, 255, 0.5);
  font-family: Inter;
@@ -96,11 +115,13 @@ body {
  font-weight: 400;
  margin-top: -28px;
 }
+
 .banner-btn {
  display: flex;
  flex-direction: row;
  gap: 10px;
 }
+
 .btn-1 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -110,7 +131,15 @@ body {
  border: none;
  background: rgb(230, 83, 60);
  padding: 16px 40px 16px 40px;
+ cursor: pointer;
+ transition: background 0.3s ease;
 }
+
+.btn-1:hover {
+ background-color: rgb(200, 60, 40);
+ transform: scale(1.05);
+}
+
 .btn-2 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -120,6 +149,14 @@ body {
  border: 1px solid rgb(255, 255, 255);
  background: none;
  padding: 16px 40px 16px 40px;
+ cursor: pointer;
+ transition: background 0.3s ease;
+}
+
+.btn-2:hover {
+ background-color: rgb(255, 255, 255, .5);
+ color: black;
+ transform: scale(1.05);
 }
 
 .banner-image {
@@ -129,6 +166,7 @@ body {
  margin-top: 30px;
  margin-right: 100px;
 }
+
 .tutorial {
  width: 180px;
  height: 90px;
@@ -143,6 +181,7 @@ body {
  margin-bottom: -300px;
  margin-right: -100px;
 }
+
 .play-btn {
  width: 40px;
  height: 40px;
@@ -151,19 +190,29 @@ body {
  display: flex;
  align-items: center;
  justify-content: center;
+ cursor: pointer;
+ transition: background 0.3s ease;
 }
+
+.play-btn:hover {
+ background-color: rgb(200, 60, 40);
+ transform: scale(1.05);
+}
+
 .videos h2 {
  color: rgb(250, 250, 249);
  font-family: Inter;
  font-size: 24px;
  font-weight: 900;
 }
+
 .videos p {
  color: rgba(239, 237, 232, 0.65);
  font-family: Inter;
  font-size: 16px;
  font-weight: 400;
 }
+
 .workout {
  width: 193px;
  height: 85px;
@@ -178,6 +227,7 @@ body {
  backdrop-filter: blur(20px);
  background: rgba(255, 255, 255, 0.1);
 }
+
 .workout h2 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -185,6 +235,7 @@ body {
  font-weight: 900;
  margin-top: -5px;
 }
+
 .workout p {
  color: rgba(255, 255, 255, 0.65);
  font-family: Inter;
@@ -199,11 +250,13 @@ main {
  margin: 0 auto;
  background: rgb(0, 0, 0);
 }
+
 /* habits styles */
 .habits {
  max-width: 1044px;
  margin: 0 auto;
 }
+
 .habits-text {
  display: flex;
  flex-direction: column;
@@ -211,6 +264,7 @@ main {
  align-items: center;
  text-align: center;
 }
+
 .habits-text h2 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -218,6 +272,7 @@ main {
  font-weight: 900;
  line-height: 120%;
 }
+
 .habits-text p {
  color: rgba(255, 255, 255, 0.5);
  font-family: Inter;
@@ -225,6 +280,7 @@ main {
  font-weight: 400;
  margin-top: -14px;
 }
+
 .habits-img {
  display: flex;
  flex-direction: row;
@@ -232,6 +288,7 @@ main {
  align-items: center;
  margin-top: 58px;
 }
+
 .imgs{
  display: flex;
  flex-direction: column;
@@ -239,15 +296,23 @@ main {
  text-align: center;
  margin-bottom: 100px;
 }
+
 .imgs img {
  border-radius: 50%;
 }
+
 .imgs h5 {
  color: rgb(255, 255, 255);
  font-family: Inter;
  font-size: 18px;
  font-weight: 600;
+ cursor: pointer;
 }
+
+.imgs h5:hover {
+ color: rgb(200, 60, 40);;
+}
+
 .imgs p {
  color: rgba(255, 255, 255, 0.5);
  font-family: Inter;
@@ -311,6 +376,7 @@ main {
 
 .run-text button:hover {
  background: rgb(200, 60, 40);
+ transform: scale(1.05);
 }
 
 .run-img {
@@ -326,6 +392,75 @@ main {
  border-radius: 18px;
 }
 
+/* Features styles starts here */
+.features {
+ max-width: 1044px;
+ margin: 0 auto;
+ margin-bottom: 88px;
+ text-align: center;
+}
+
+.features h3 {
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 32px;
+ font-weight: 900;
+ line-height: 120%;
+ margin: 0;
+}
+
+.features p {
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 24px;
+ margin: 20px 0;
+}
+
+.features-container {
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin-top: 40px;
+}
+
+.feature {
+ max-width: 250px;
+ text-align: center;
+}
+
+.feature h5 {
+ color: rgb(255, 255, 255);
+ font-family: Inter;
+ font-size: 18px;
+ font-weight: 900;
+ margin: 0;
+ cursor: pointer;
+}
+
+.feature h5:hover {
+ color: rgb(200, 60, 40);
+}
+
+ .feature p {
+ color: rgba(255, 255, 255, 0.5);
+ font-family: Inter;
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 15px;
+}
+
+.feature img {
+ max-width: 143px;
+ height: 103px;
+ cursor: pointer;
+ transition: transform 0.3s ease;
+}
+
+.feature:hover img {
+ transform: scale(1.05);
+}
 /* BMI styles starts here */
 .bmi {
  max-width: 1440px;
@@ -343,6 +478,7 @@ main {
  justify-content: left;
  text-align: left;
 }
+
 .bmi-text h3 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -375,9 +511,9 @@ main {
  font-weight: 900;
  line-height: 120%;
  letter-spacing: 0%;
- text-align: left;
- 
+ text-align: left; 
 }
+
 .bmi-calculation p {
  color: rgba(255, 255, 255, 0.5);
  font-family: Inter;
@@ -388,6 +524,7 @@ main {
  text-align: left;
  margin-top: -35px;
 }
+
 .bmi-chart h5 {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -401,6 +538,7 @@ main {
 .bmi-chart table {
  border-collapse: collapse;
 }
+
 th {
  color: rgb(255, 255, 255);
  font-family: Inter;
@@ -410,6 +548,7 @@ th {
  letter-spacing: 0%;
  text-align: left;
 }
+
 td {
  color: rgba(255, 255, 255, 0.5);
  font-family: Inter;
@@ -430,6 +569,7 @@ td, th {
  align-items: center;
  gap: 12px;
 }
+
 .input-styles {
  padding: 12px 40px 12px 20px;
  border: none;
@@ -440,6 +580,7 @@ td, th {
  font-size: 16px;
  font-weight: 400;
 }
+
 .select-styles {
  grid-column: span 2;
  padding: 12px 20px 12px 20px;
@@ -457,6 +598,7 @@ select option {
  color: #ffffff;
  border: none;
 }
+
 .bmi-btn {
  border: none;
  border-radius: 42px;
@@ -467,6 +609,12 @@ select option {
  font-family: Inter;
  font-size: 18px;
  font-weight: 600;
+ cursor: pointer;
+}
+
+.bmi-btn:hover {
+ background-color: rgb(200, 60, 40);
+ transform: scale(1.05);
 }
 
 /* Team section styles */
@@ -505,7 +653,6 @@ select option {
  height: 272px;
  position: relative;
  padding: 20px;
- /* overflow: hidden; */
  border-radius: 18px;
 }
 
@@ -537,6 +684,11 @@ select option {
  text-align: left;
  font-size: 18px;
  margin: 0;
+ cursor: pointer;
+}
+
+.team-member-info h3:hover {
+ color: rgb(200, 60, 40);;
 }
 
 .team-member-info p {
@@ -617,23 +769,29 @@ hr {
   display: none;
   flex-direction: column;
  }
+
  .options {
   flex-direction: column;
  }
+
  .hamburger {
   display: block;
  }
+
  .banner, 
  .habits-img {
   flex-direction: column;
  }
+
  .banner-text {
   margin: 0 auto;
  }
+
  .banner-image,
  .habits {
   margin: 0 auto;
  }
+
  .run {
   flex-direction: column;
   margin: 0 auto;
@@ -656,9 +814,15 @@ hr {
   max-width: 300px;
   max-height: auto;
  }
+
 .run-img img {
   object-fit: cover;
  }
+
+ .features {
+  padding: 20px;
+ }
+
  /* bmi section responsive */
  .bmi {
   max-width: 100%;
@@ -710,8 +874,6 @@ hr {
  
  .form-box {
   grid-template-columns: 1fr;
-  /* padding: 10px; */
-  /* gap: 8px; */
  }
  
  .input-styles, .select-styles {
@@ -754,12 +916,14 @@ hr {
  height: auto;
  padding: 20px;
  }
+
  .text {
   flex-direction: column;
   margin-top: 30px;
   padding: 20px;
   align-items: flex-start;
  }
+ 
  hr {
   width: 90%;
   margin-top: 50px;
